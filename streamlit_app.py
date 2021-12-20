@@ -7,6 +7,7 @@ import streamlit as st
 
 import config as cfg
 from inference import QAModelInference
+from PIL import Image
 
 
 def get_proba(ans_dict: dict, model_tag: str):
@@ -59,6 +60,9 @@ with st.spinner("Caching models..."):
 
 with st.spinner("Loading models..."):
     model = load_model()
+
+image = Image.open('Logo-DTC')
+st.image(image, caption='DTC YO')
 
 st.title("Question Answering System")
 
