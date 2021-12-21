@@ -66,7 +66,7 @@ st.image(image, caption='DTC YO')
 
 st.title("Question Answering System")
 
-st.write("Built with 🤗 Transformers")
+st.write("Built by Akash , Prateek , Sidharth , Vinay ")
 
 
 st.info(
