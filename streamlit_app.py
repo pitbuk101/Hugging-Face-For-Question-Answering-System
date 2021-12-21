@@ -89,8 +89,7 @@ question = st.text_input("Ask a question", value=example_question)
 
 #st.markdown(question)
 st.subheader("Model")
-model_selection = st.selectbox("Choose a model", options=['Automatic', 'Trained on correct questions',
-                                                                  'Trained on tricky questions'])
+model_selection = st.selectbox("Choose a model", options=['Automatic'])
 
 
 if st.button("Get an answer"):
