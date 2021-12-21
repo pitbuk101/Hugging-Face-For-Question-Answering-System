@@ -19,5 +19,5 @@ The idea is that combining the output of both models will improve the discrimina
 ## Web application 
 
 Explore the QA system using application hosted on Streamlit Sharing:
-https://share.streamlit.io/snexus/nlp-question-answering-system/main
+https://share.streamlit.io/pitbuk101/qqnnaa/main
 
