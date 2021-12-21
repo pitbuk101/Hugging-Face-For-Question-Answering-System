@@ -61,7 +61,7 @@ with st.spinner("Caching models..."):
 with st.spinner("Loading models..."):
     model = load_model()
 
-image = Image.open('Logo-DTC')
+image = Image.open('https://delhitechnicalcampus.ac.in/wp-content/uploads/2018/05/Logo-DTC-1.png')
 st.image(image, caption='DTC YO')
 
 st.title("Question Answering System")
