@@ -68,28 +68,14 @@ st.title("Question Answering System")
 
 st.write("Built with 🤗 Transformers")
 
-with st.beta_expander("About"):
-    st.markdown("""
-    The main goal of the project is to learn working with 🤗 transformers architecture by replacing the default head with a custom head suitable for the task, and fine-tuning using custom data.
-    In addition, the project tries to improve on the ability to recognise tricky (impossible) questions which are part of SQuAD 2.0 dataset. 
-    This project doesn't use QA task head coming with HuggingFace transformers but creates the head architecture from scratch.
-     The same architecture is used to fine-tune 2 models, as described below.
-
-The QA system is built using several sub-components:
-* HuggingFace's DistilBERT transformer with custom head, fine-tuned on SQuAD v2.0, using only possible questions.
-* HuggingFace's DistilBERT transformer with custom head, fine-tuned on SQuAD v2.0, using both - possible and non-possible questions.
-* Inference component, combining the output of both models.
-
-The logic behind training two models - the former is a conditional model, trained only on correct question/answers pairs, while the latter additionally includes tricky questions with answers that can't be found in the context. The idea is that combining the output of both models will improve the discrimination ability on impossible questions.
-    """)
 
 st.info(
     ":bulb: How does it work? Enter a context, then ask a question about it."
     " The system will attempt to find and extract the answer, given it exists in the context.")
 
-example_context = """In 1984, Time Magazine reported that Sassafras, a female poodle belonging to a New York City physician, had received a diploma from the American Association of Nutrition and Dietary Consultants.  Her owner had bought the diploma for $50 to demonstrate that "something that looks like a diploma doesn't mean that somebody has responsible training"."""
+example_context = """Ratan Naval Tata (Hindi: रतन टाटा, Ratan Ṭāṭā, born 28 December 1937) is an Indian industrialist, philanthropist, and a former chairman of Tata Sons. He was also chairman of Tata Group, from 1990 to 2012, and again, as interim chairman, from October 2016 through February 2017, and continues to head its charitable trusts.[3][4] He is the recipient of two of the highest civilian awards of India, the Padma Vibhushan (2008) and Padma Bhushan (2000).[5]."""
 
-example_question = "Who Sassafras belongs to?"
+example_question = "When Ratan Tata born?"
 
 
 
