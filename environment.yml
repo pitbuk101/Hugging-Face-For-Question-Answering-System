@@ -13,7 +13,7 @@ dependencies:
  # - ncurses=6.2=he6710b0_1
   #- openssl=1.1.1h=h7b6447c_0
   - pip=20.2.3=py37_0
-  #- python=3.7.9=h7579374_0
+  - python=3.7.9=h7579374_0
   #- readline=8.0=h7b6447c_0
   #- setuptools=50.3.0=py37hb0f4dca_1
  # - sqlite=3.33.0=h62c20be_0
