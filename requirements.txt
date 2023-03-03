@@ -2,6 +2,8 @@ torch==1.6.0
 transformers==3.3.1
 streamlit==0.69.2
 numpy==1.19.2
+aioboto3
+aiobotocore
 h5py
 typing-extensions
 wheel
