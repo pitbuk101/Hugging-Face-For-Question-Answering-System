@@ -4,5 +4,6 @@ model_folder = "models"
 
 mappings = {
     "model_plausible":plausible_model_url,
+
     "model_possible":possible_model_url
 }

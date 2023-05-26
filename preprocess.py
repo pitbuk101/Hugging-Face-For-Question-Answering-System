@@ -7,7 +7,7 @@ import os
 import random
 from pathlib import Path
 
-from transformers import DistilBertTokenizerFast
+from transformers import DistilBertTokenizerFast    #   Distil Bert Model
 
 
 class SquadPreprocessor:

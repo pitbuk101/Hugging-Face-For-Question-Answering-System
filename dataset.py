@@ -14,6 +14,7 @@ class SquadDataset(torch.utils.data.Dataset):
 
 
 if __name__ == '__main__':
+
     # Minimum sanity check
     from preprocess import SquadPreprocessor
     from torch.utils.data import DataLoader

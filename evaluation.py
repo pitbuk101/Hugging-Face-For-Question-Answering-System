@@ -7,6 +7,7 @@ This evaluation script is not perfect - it misses many correct answers, since be
 import os
 import numpy as np
 from tqdm import tqdm
+
 from sklearn.metrics import roc_auc_score, average_precision_score
 
 from inference import QAModelInference

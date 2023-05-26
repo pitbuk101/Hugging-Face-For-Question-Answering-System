@@ -62,7 +62,7 @@ with st.spinner("Loading models..."):
     model = load_model()
 
 image = Image.open('Logo-DTC.png')
-st.image(image, caption='DELHI TECHNICAL CAMPUS PRESENTS')
+st.image(image, caption="DELHI TECHNICAL CAMPUS PRESENT'S")
 
 st.title("Question Answering System")
 

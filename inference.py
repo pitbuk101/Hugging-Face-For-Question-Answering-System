@@ -6,6 +6,7 @@ from transformers import DistilBertModel, DistilBertTokenizerFast
 
 from model import QAModel
 
+
 logging.basicConfig(level=logging.INFO)
 
 

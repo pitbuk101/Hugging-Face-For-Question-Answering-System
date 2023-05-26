@@ -17,7 +17,7 @@ dependencies:
   #- readline=8.0=h7b6447c_0
   #- setuptools=50.3.0=py37hb0f4dca_1
  # - sqlite=3.33.0=h62c20be_0
-  #- tk=8.6.10=hbc83047_0
+ #- tk=8.6.10=hbc83047_0
   - wheel=0.35.1=py_0
   #- xz=5.2.5=h7b6447c_0
  # - zlib=1.2.11=h7b6447c_3

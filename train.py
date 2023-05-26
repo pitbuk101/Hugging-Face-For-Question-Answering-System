@@ -8,6 +8,7 @@ from dataset import SquadDataset
 from model import QAModel
 from preprocess import SquadPreprocessor, SquadPlausibleAnswersPreprocessor
 
+
 logging.basicConfig(level=logging.INFO)
 
 
