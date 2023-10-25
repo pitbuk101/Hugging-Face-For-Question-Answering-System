@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 QnA/
 dl_model/
+models/
+squad/
+
 
 # C extensions
 *.so
