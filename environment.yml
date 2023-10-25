@@ -102,7 +102,7 @@ dependencies:
     - tokenizers==0.8.1rc2
     - toml==0.10.1
     - toolz==0.11.1
-    - torch==1.6.0
+    - torch
     - tornado==6.0.4
     - tqdm==4.50.2
     - traitlets==5.0.5
@@ -115,7 +115,7 @@ dependencies:
     - webencodings==0.5.1
     - widgetsnbextension==3.5.1
     - zipp==3.3.1
-prefix: /home/snexus/anaconda3/envs/nlp-question-answering-system
+prefix: pitbuk101/Hugging-Face-For-Question-Answering-System
 # name: nlp-question-answering-system
 # channels:
 #   - defaults
