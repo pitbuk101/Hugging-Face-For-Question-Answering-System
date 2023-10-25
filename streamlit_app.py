@@ -66,7 +66,7 @@ st.image(image, caption="DELHI TECHNICAL CAMPUS PRESENT'S")
 
 st.title("Question Answering System")
 
-st.write("Built by Akash , Prateek , Sidharth , Vinay ")
+st.write("Built by Prateek Kumar Tiwari ")
 
 
 st.info(
